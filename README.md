@@ -1,6 +1,7 @@
-# 閑古鳥
+<!-- # kankodori.dev -->
 
-## Who we are?
+Development team that started with a friend.
+We love Hackathon!
 
 ## Works
 ### [scoreboard](./apps/scoreboard.md)

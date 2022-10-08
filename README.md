@@ -1,1 +1,1 @@
-# kanko-dori.github.io
+# kankodori.dev

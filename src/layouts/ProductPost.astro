@@ -1,0 +1,49 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.svelte";
+import Footer from "../components/Footer.svelte";
+import New from "../components/New.svelte";
+
+export interface Props {
+  content: {
+    title: string;
+    description: string;
+    heroImage?: string;
+    latest?: boolean;
+  };
+}
+
+const {
+  content: { title, description, heroImage, latest },
+} = Astro.props;
+---
+
+<html lang="ja">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .title {
+        font-size: 2em;
+        margin: 0.25em 0 0;
+        display: flex;
+      }
+      hr {
+        border-top: 1px solid #ddd;
+        margin: 1rem 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <article>
+        {heroImage && <img src={heroImage} alt="" />}
+        <h1 class="title">{title}{latest && <time>{<New />}</time>}</h1>
+        <hr />
+        <slot />
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>

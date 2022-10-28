@@ -3,7 +3,7 @@ layout: "../../layouts/ProductPost.astro"
 title: "Inol"
 pubDate: "2022/3/16"
 heroImage: "inol.png"
-description: "馬や恋の南京錠といった形で祈りを捧げることができるLINEアプリ"
+description: "絵馬や恋の南京錠といった形で祈りを捧げることができるLINEアプリ"
 latest: false
 ---
 

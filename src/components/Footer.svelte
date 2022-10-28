@@ -4,9 +4,9 @@
 </script>
 
 <footer>
-  <div>
+  <small>
     &copy; {thisyear} kankodori. All rights reserved.
-  </div>
+  </small>
 </footer>
 
 <style>

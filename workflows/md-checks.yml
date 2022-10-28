@@ -1,4 +1,4 @@
-name: Checks for app
+name: Checks for markdown
 
 on:
   push:
@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm install
       - run: npx textlint ./src/pages/**/*.md

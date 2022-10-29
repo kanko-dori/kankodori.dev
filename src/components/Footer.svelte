@@ -9,12 +9,11 @@
 
 <style>
   footer {
+    width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
-    position: fixed;
-    left: 0;
-    width: 100%;
-    bottom: 0;
+    position: sticky;
+    top: 100vh;
   }
 </style>

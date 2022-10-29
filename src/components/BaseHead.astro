@@ -40,6 +40,10 @@ const { title, description, image = "/logo.svg" } = Astro.props;
   href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
 />
 <style>
+  html, body {
+    box-sizing: border-box;
+    height: 100%;
+  }
   :root {
     --nc-tx-1: #000000;
     --nc-tx-2: #1a1a1a;

@@ -2,10 +2,9 @@
 kankodori(閑古鳥) is development team that started with a friend.  
 We love Hackathon!  
 
-## Install
+## How to develop
 
 ```sh
 pnpm install
-pnpm run dev
+pnpm dev
 ```
-

@@ -45,9 +45,7 @@ const posts = (await Astro.glob("./product/*.{md,mdx}")).sort(
                     <p>{post.frontmatter.description}</p>
                 );
               }
-            }
-            
-            )
+            })
           }
       </section>
     </main>

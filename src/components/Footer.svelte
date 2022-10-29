@@ -1,11 +1,9 @@
 <script lang="ts">
-  const today = new Date();
-  const thisyear = today.getFullYear();
 </script>
 
 <footer>
   <small>
-    &copy; {thisyear} kankodori. All rights reserved.
+    &copy; {new Date().getFullYear()} kankodori. All rights reserved.
   </small>
 </footer>
 

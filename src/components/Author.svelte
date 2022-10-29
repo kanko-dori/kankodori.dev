@@ -11,6 +11,6 @@
 <style>
   a {
     display: flex;
-    padding-top: 0.5em;
+    bottom: 0;
   }
 </style>

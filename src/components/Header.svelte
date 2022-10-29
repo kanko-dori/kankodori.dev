@@ -20,10 +20,6 @@
 </header>
 
 <style>
-  img {
-    aspect-ratio: attr(width) / attr(height);
-    margin: 8px;
-  }
   ul {
     display: flex;
     list-style: none;

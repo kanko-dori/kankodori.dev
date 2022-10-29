@@ -32,9 +32,6 @@ const {
         border-top: 1px solid #ddd;
         margin: 1rem 0;
       }
-      img {
-        aspect-ratio: attr(width) / attr(height);
-      }
     </style>
   </head>
 
@@ -53,7 +50,6 @@ const {
           )
         }
         <Author author={author}/>
-        <hr />
         <slot />
       </article>
     </main>

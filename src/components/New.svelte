@@ -5,7 +5,7 @@
 
 <style>
   div {
-    margin-left: 16px;
+    padding-left: 8px;
     color: crimson;
     font-size: medium;
   }

@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Main.astro"
+layout: "../layouts/Default.astro"
 title: "閑古鳥"
 description: "閑古鳥"
 ---

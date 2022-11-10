@@ -1,5 +1,5 @@
 ---
-layout: "../layouts/Main.astro"
+layout: "../layouts/Default.astro"
 title: "プライバシーポリシー"
 description: "プライバシーポリシー"
 ---

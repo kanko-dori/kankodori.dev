@@ -15,6 +15,7 @@
       <li>
         <a href="https://github.com/kanko-dori">GitHub</a>
       </li>
+      <li><a href="/privacy-policy">Privacy</a></li>
     </ul>
   </nav>
 </header>

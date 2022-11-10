@@ -9,5 +9,5 @@ latest: false
 
 KubernetesのPod数に合わせてクリスマスツリーが光ります。  
 [ハックツハッカソン プレシオ杯](https://hackz.team/news/5TfqHI0yyPCQn8Lppzh9mK)で優勝しました。  
-Topa'zにも紹介を書いています→[Topa'z/kubesmas-tree](https://topaz.dev/projects/c00sudq23akg008ogemg)  
-リポジトリ→[kankodori/kubesmas-tree](https://github.com/kanko-dori/kubesmas-tree)
+Topa'zに詳細を載せています→[kubesmas-tree](https://topaz.dev/projects/c00sudq23akg008ogemg)  
+リポジトリ→[kanko-dori/kubesmas-tree](https://github.com/kanko-dori/kubesmas-tree)

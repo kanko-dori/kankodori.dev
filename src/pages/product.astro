@@ -1,0 +1,40 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.svelte";
+import Footer from "../components/Footer.svelte";
+import New from "../components/New.svelte";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+
+const posts = (await Astro.glob("./product/*.{md,mdx}")).sort(
+  (a, b) =>
+    new Date(b.frontmatter.pubDate).valueOf() -
+    new Date(a.frontmatter.pubDate).valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      h2 {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+          {posts.map(({ url, frontmatter }) => (
+            <h2>
+              <a href={url}>{frontmatter.title}</a>
+              {frontmatter.latest && <New />}
+            </h2>
+            <p>{frontmatter.description}</p>
+          ))}
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

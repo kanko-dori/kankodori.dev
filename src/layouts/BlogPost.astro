@@ -28,10 +28,6 @@ const {
         font-size: 2em;
         margin: 0.25em 0 0;
       }
-      hr {
-        border-top: 1px solid #ddd;
-        margin: 1rem 0;
-      }
     </style>
   </head>
 
@@ -39,17 +35,18 @@ const {
     <Header />
     <main>
       <article>
-        {heroImage && <img width={638} height={398} src={heroImage} alt="" />}
+        {heroImage && <img src={`/blog/${heroImage}`} alt="" />}
         <h1 class="title">{title}</h1>
         {pubDate && <time>{pubDate}</time>}
         {
           updatedDate && (
             <div>
-              Last updated on <time>{updatedDate}</time>
+              Last update : <time>{updatedDate}</time>
             </div>
           )
         }
         <Author author={author}/>
+        <hr />
         <slot />
       </article>
     </main>

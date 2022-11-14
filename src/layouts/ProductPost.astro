@@ -12,7 +12,6 @@ export interface Props {
     latest?: boolean;
   };
 }
-
 const {
   content: { title, description, heroImage, latest },
 } = Astro.props;
@@ -38,7 +37,7 @@ const {
     <Header />
     <main>
       <article>
-        {heroImage && <img src={heroImage} alt="" />}
+        {heroImage && <img src={`/product/${heroImage}`} alt="" />}
         <h1 class="title">{title}{latest && <New />}</h1>
         <slot />
       </article>

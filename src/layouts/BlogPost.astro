@@ -10,13 +10,13 @@ export interface Props {
     description: string;
     pubDate?: string;
     updatedDate?: string;
-    image?: string;
+    heroImage?: string;
     author?: string;
   };
 }
 
 const {
-  content: { title, description, pubDate, updatedDate, image, author },
+  content: { title, description, pubDate, updatedDate, heroImage, author },
 } = Astro.props;
 
 ---
@@ -36,7 +36,7 @@ const {
     <Header />
     <main>
       <article>
-        {image && <img src={`/blog/${image}`} alt="" />}
+        {heroImage && <img src={heroImage} alt="" />}
         <h1 class="title">{title}</h1>
         {pubDate && <time>{pubDate}</time>}
         {

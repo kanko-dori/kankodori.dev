@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductPost.astro"
 title: "me-shi"
 pubDate: "2021/9/22"
-image: "me-shi.png"
+image: "/product/me-shi.png"
 description: "GitHubと紐づいた名刺の交換ができるWebアプリ"
 latest: false
 ---

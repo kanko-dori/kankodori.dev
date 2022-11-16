@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductPost.astro"
 title: "Kubesmas tree"
 pubDate: "2020/12/20"
-heroImage: "kubesmas.png"
+heroImage: "/product/kubesmas.png"
 description: "Kubernetes の Pod 数に合わせて光るクリスマスツリー"
 latest: false
 ---

@@ -12,16 +12,16 @@
     "textlint": "textlint ./src/pages/**/*.md"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.11.4",
-    "@astrojs/rss": "^1.0.2",
-    "@astrojs/sitemap": "^1.0.0",
-    "@astrojs/svelte": "^1.0.1",
-    "astro": "^1.4.4",
-    "svelte": "^3.46.4"
+    "@astrojs/mdx": "^0.11.6",
+    "@astrojs/rss": "^1.2.1",
+    "@astrojs/sitemap": "^1.4.0",
+    "@astrojs/svelte": "^1.0.2",
+    "astro": "^1.9.2",
+    "svelte": "^3.59.2"
   },
   "devDependencies": {
-    "textlint": "^12.2.2",
-    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint": "^12.6.1",
+    "textlint-rule-preset-ja-spacing": "^2.3.0",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }

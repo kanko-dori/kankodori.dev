@@ -11,7 +11,7 @@
     <ul>
       <li><a href="/">About</a></li>
       <li><a href="/product">Product</a></li>
-      <li><a href="/blog">Blog</a></li>
+      <li><a href="/member">Member</a></li>
       <li>
         <a href="https://github.com/kanko-dori">GitHub</a>
       </li>

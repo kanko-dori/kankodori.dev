@@ -1,7 +1,7 @@
 ---
 layout: "../layouts/Default.astro"
 title: "Member"
-description: "Introducing the members of the kankodori(閑古鳥) crew. Meet ssssota, onsd, and norikmb!"
+description: "Introducing the members of kankodori(閑古鳥)"
 ---
 
 閑古鳥の愉快な仲間たちを紹介します
